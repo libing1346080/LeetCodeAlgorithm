@@ -1,4 +1,4 @@
-package leetCode;
+package LeetCodeAlgorithm;
 import java.util.*;
 /**
  * Created by libing on 17/6/16.
