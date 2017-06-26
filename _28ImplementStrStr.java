@@ -41,7 +41,11 @@ public class _28ImplementStrStr {
             if(k == -1 || str.charAt(k) == str.charAt(i)){
                 k++;
                 i++;
-                next[i] = k;
+                if(str.charAt(k) != str.charAt(i)){
+                    next[i] = k;  //对next数组的优化， 在之前的算法中只有这一行，
+                }else{
+                    next[i] = next[k]; //防止两个相同的元素移动到同一位置
+                }
             }else{
                 k = next[k];
             }
