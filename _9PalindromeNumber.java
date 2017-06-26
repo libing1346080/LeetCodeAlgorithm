@@ -1,11 +1,10 @@
-package leetCode;
-
+package LeetCodeAlgorithm;
 /**
  * Created by libing on 17/6/15.
  */
 public class _9PalindromeNumber {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(12));
+        System.out.println(isPalindrome(121));
     }
     public static boolean isPalindrome(int x) {
         if(x < 0 || (x != 0 && x % 10 == 0)) return false;

@@ -1,4 +1,4 @@
-package leetCode;
+package LeetCodeAlgorithm;
 
 /**
  * Created by libing on 17/6/15.
