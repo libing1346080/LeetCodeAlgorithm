@@ -4,7 +4,7 @@ package LeetCodeAlgorithm;
  * Created by libing on 17/6/26.
  */
 public class _28ImplementStrStr {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //KMP算法的实现，主要是next数组的求解
         String str = " ";
         System.out.println(str.length());
         System.out.println(strStr(" ", " " ));
