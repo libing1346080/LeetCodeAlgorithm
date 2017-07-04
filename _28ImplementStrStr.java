@@ -33,7 +33,7 @@ public class _28ImplementStrStr {
 
     }
 
-    private  static void computeNext(String str, int[] next){ //求KMP的next数组
+    public  static void computeNext(String str, int[] next){ //求KMP的next数组
         next[0] = -1;
         int k = -1;
         int i = 0;  //代表字符串str的下标
